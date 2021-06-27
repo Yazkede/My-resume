@@ -3,18 +3,33 @@ body{
    background: #E5E5E5;
    height: 1399px;
    max-width: 1280px;
-   left: -641px;
-   top: -700px;
+   
    border-radius: 0px;
    margin: 40px auto;
 }
 
+h1{
+   font-weight: bold;
+   font-size: 45px;
+   line-height: 55px;
+   color: #000000;
+   padding: 0 0 0 0;
+}
+
+h2{
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 17px;
+   color: #000000;
+   padding: 60px 0 0 0;
+}
 
 .container {
    display: flex;
    flex-direction: row-reverse;
    background-color: #FFFFFF;
    flex: 0 1 auto;
+   
 }
 
 .container > h1,h2,h3,h4,h5,h6{
@@ -24,8 +39,13 @@ body{
 .main-content {
    max-width: 830px;
    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-   
+   padding: 0 0 0 88px;
 }
+
+.main-content h3{
+   font-size: 22px;
+}
+
 .about-me {
 }
 .about-me > p{
@@ -33,13 +53,30 @@ body{
    font-size: 14px;
    line-height: 24px;
    color: #595959;
-}
-.projects {
+   padding: 0 342px 0 0;
    
 }
+.projects {
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+}
+
+.projects a{
+   color: #595959;
+}
+
 .work-experience {
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+   max-width: 525px;
 }
 .education {
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+   margin-bottom: 105px;
 }
 
 .sidebar__main {
@@ -49,8 +86,7 @@ body{
 }
 
 .sidebar{
-   padding-left: 40px;
-   padding-top: 15px;
+   padding: 0 0 45px 40px;
    font-size: 14px;
    line-height: 24px;
 }
@@ -74,6 +110,10 @@ body{
    opacity: 0.5;
 }
 
+.contacts span{
+   margin-right: 7px;
+}
+
 .tech-skills {
    
 }
@@ -81,12 +121,21 @@ body{
    
 }
 .foto{
-   padding-top: 40px;
+   padding: 40px 0;
    max-width: 370px;
-   max-height: 1319px;
-   object-fit: cover;
 }
 
-.sidebar.h3{
+.sidebar h3{
+   color: #FFFFFF;
+}
+.list{
+   
+}
+
+.list li{
+   color: #FB6D3A;
+}
+
+.list li span{
    color: #FFFFFF;
 }
