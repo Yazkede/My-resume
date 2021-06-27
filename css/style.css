@@ -1,3 +1,92 @@
 body{
    font-family: 'Montserrat', sans-serif;
+   background: #E5E5E5;
+   height: 1399px;
+   max-width: 1280px;
+   left: -641px;
+   top: -700px;
+   border-radius: 0px;
+   margin: 40px auto;
+}
+
+
+.container {
+   display: flex;
+   flex-direction: row-reverse;
+   background-color: #FFFFFF;
+   flex: 0 1 auto;
+}
+
+.container > h1,h2,h3,h4,h5,h6{
+   color: #000;
+}
+
+.main-content {
+   max-width: 830px;
+   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+   
+}
+.about-me {
+}
+.about-me > p{
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+}
+.projects {
+   
+}
+.work-experience {
+}
+.education {
+}
+
+.sidebar__main {
+   background-color: #1E2939;
+   max-width: 370px;
+   color: #fff;
+}
+
+.sidebar{
+   padding-left: 40px;
+   padding-top: 15px;
+   font-size: 14px;
+   line-height: 24px;
+}
+
+.sidebar__title{
+   color: #fff ;
+   font-size: 22px;
+   line-height: 27px;
+   font-weight: 700;
+}
+
+.contacts {
+   
+}
+
+.contacts a{
+   font-size: 14px;
+   line-height: 24px;
+   color: #FFFFFF;
+   padding-right: 17px;
+   opacity: 0.5;
+}
+
+.tech-skills {
+   
+}
+.soft-skills {
+   
+}
+.foto{
+   padding-top: 40px;
+   max-width: 370px;
+   max-height: 1319px;
+   object-fit: cover;
+}
+
+.sidebar.h3{
+   color: #FFFFFF;
 }
