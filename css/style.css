@@ -32,8 +32,12 @@ h2{
    
 }
 
-.container > h1,h2,h3,h4,h5,h6{
+.container > h1,h2,h3,h4{
    color: #000;
+}
+
+.education h4{
+   color: #FB6D3A;
 }
 
 .main-content {
@@ -66,12 +70,27 @@ h2{
    color: #595959;
 }
 
+.projects a:hover{
+   color:#000;
+   text-shadow: 0.3px 0.3px #000;
+}
+
+.projects span{
+   font-weight: 600;
+   opacity: 0.8;
+}
+
 .work-experience {
    font-size: 14px;
    line-height: 24px;
    color: #595959;
    max-width: 725px;
 }
+
+.work-experience span {
+   color: #FB6D3A;
+}
+
 .education {
    font-size: 14px;
    line-height: 24px;
@@ -98,8 +117,8 @@ h2{
    font-weight: 700;
 }
 
-.contacts {
-   
+.contacts :hover{
+   text-shadow: 0.4px 0.4px rgb(221, 245, 6);
 }
 
 .contacts a{
