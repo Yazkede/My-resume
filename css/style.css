@@ -2,10 +2,10 @@ body{
    font-family: 'Montserrat', sans-serif;
    background: #E5E5E5;
    height: 1399px;
-   max-width: 1280px;
-   
+   max-width: 1280px;   
    border-radius: 0px;
    margin: 40px auto;
+   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1{
@@ -24,26 +24,33 @@ h2{
    padding: 60px 0 0 0;
 }
 
+h3{
+   color:#FB6D3A;
+}
+
 .container {
    display: flex;
    flex-direction: row-reverse;
-   background-color: #FFFFFF;
+   background-color: #fff;
    flex: 0 1 auto;
-   
+   justify-content: space-around;
+   font-size: 16px;
+   line-height: 24px;
+   color: #595959;
 }
 
-.container > h1,h2,h3,h4{
+.container > h1,h2,h4{
    color: #000;
 }
 
-.education h4{
-   color: #FB6D3A;
+.university{
+   font-weight: bold;
 }
 
 .main-content {
    max-width: 830px;
-   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-   padding: 0 0 0 88px;
+   padding: 30px 0 0 88px;
+   margin: 0 35px 0 -25px;
 }
 
 .main-content h3{
@@ -64,6 +71,7 @@ h2{
    font-size: 14px;
    line-height: 24px;
    color: #595959;
+   margin-bottom: 40px;
 }
 
 .projects a{
@@ -80,34 +88,53 @@ h2{
    opacity: 0.8;
 }
 
-.work-experience {
-   font-size: 14px;
-   line-height: 24px;
-   color: #595959;
-   max-width: 725px;
+.realtime{
+   margin-bottom: 40px;
 }
 
-.work-experience span {
-   color: #FB6D3A;
+.realtime li{
+   padding: 5px 0;
+}
+
+.realtime li a{
+   color:black;
+}
+.realtime li a:hover{
+   color:#FB6D3A;
+   transition-duration: 0.5s;
+}
+
+.realtime li span{
+   font-weight: bold;
+}
+
+.work{
+   margin-bottom: 40px;
+}
+
+.work li{
+   padding: 5px 0;
 }
 
 .education {
    font-size: 14px;
    line-height: 24px;
    color: #595959;
-   margin-bottom: 105px;
+   margin-bottom: 40px;
 }
 
 .sidebar__main {
    background-color: #1E2939;
    max-width: 370px;
    color: #fff;
+   margin: 0 -25px 0 35px;
 }
 
 .sidebar{
    padding: 0 0 45px 40px;
    font-size: 14px;
    line-height: 24px;
+   
 }
 
 .sidebar__title{
@@ -157,4 +184,16 @@ h2{
 
 .list li span{
    color: #FFFFFF;
+}
+
+@media (max-width: 767px){
+   .container {
+      flex-direction: column;
+   }
+   .sidebar__main{
+      margin: 0 auto;
+   }
+   .purpose{
+      margin-bottom: 50px;
+   }
 }
