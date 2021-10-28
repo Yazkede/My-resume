@@ -188,6 +188,10 @@ h3{
    color: #FFFFFF;
 }
 
+.bold{
+   font-weight: bold;
+}
+
 @media (max-width: 767px){
    .container {
       flex-direction: column;
