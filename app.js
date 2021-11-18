@@ -26,7 +26,7 @@ function changeAsideBgColor() {
     SIDEBAR.style.backgroundColor = colors[random];
 }
 
-setInterval(changeAsideBgColor, 1500);
+setInterval(changeAsideBgColor, 2000);
 
 
 
